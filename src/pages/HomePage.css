@@ -1,0 +1,138 @@
+body {
+	background:#fff;
+}
+
+a.border.nav-link.border-light.rounded.mr-1 {
+  color: #3F729B;
+}
+
+a.border.nav-link.border-light.rounded.mr-1:hover {
+  color: #1C2331;
+}
+
+.btn.btn-sm.indigo:hover{
+  color: #fff;
+}
+
+.nav-link.active{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#categories > .col-md-4.mb-5{
+  margin-bottom: 8rem !important;
+}
+.sectionPage {
+  position: relative;
+  top: -15px;
+  margin-bottom: -125px;
+}
+
+.sectionPage::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url('https://mdbootstrap.com/wp-content/uploads/2016/12/big-bundle1.jpg');
+  background-position: center center;
+  background-size: cover;
+  filter: opacity(.1);
+}
+
+.container{
+  margin-top:  15px;
+  text-align: center;
+}
+.container label{
+  display: block;      
+  line-height: 1;
+  color: black;
+}
+.container img{
+  display: inline-block;
+}
+
+.nav-img{
+  width: 36px;
+  height: 36px;
+}
+
+.card-overview {
+  text-align: center;
+  min-height: 80px;
+  height: 100px;
+}
+
+.card-container {
+  min-height: 650px;
+}
+
+.label-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label-table-header {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
+.label-table-sub-header {
+  font-weight: normal;
+  font-size: 12px;
+  color: gray;
+}
+
+.label-table-main-title {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.card-center-container {
+  overflow-y:auto;
+  max-height: 490px;
+  margin-bottom: 10px;
+}
+
+.card-right-container {
+  overflow-y:auto;
+  max-height: 650px;
+  margin-bottom: 10px;
+}
+
+.buttonstyle{
+  border-radius: 8px !important;
+  font-weight: 400 !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+  height: 36px !important;
+  letter-spacing: 1px;
+  padding: 0.4rem 1rem !important;
+  float: right;
+  background-color: #db1962 !important;
+  border: 1px solid #db1962 !important;
+  color: #FFFFFF !important;
+}
+
+.label-card-header {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label-card-value {
+  color: green;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.label-card-neg-value {
+  color: red;
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 25px;
+}
